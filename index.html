@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Optica Vision - Óculos Premium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.29/build/spline-viewer.js"></script>
+    <link rel="stylesheet" href="optic-style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <span class="logo-text">Optica</span>
+          <span class="logo-accent">Vision</span>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Início</a></li>
+          <li><a href="#products" class="nav-link">Produtos</a></li>
+          <li><a href="#about" class="nav-link">Sobre</a></li>
+          <li><a href="#contact" class="nav-link">Contato</a></li>
+        </ul>
+        <button class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-background">
+        <div class="hero-gradient"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="title-line">Estilo que</span>
+            <span class="title-line highlight">Define Você</span>
+          </h1>
+          <p class="hero-subtitle">
+            Descubra nossa coleção exclusiva de óculos premium. Design
+            sofisticado, qualidade superior e conforto incomparável.
+          </p>
+          <div class="hero-buttons">
+            <a href="#products" class="btn btn-primary">Ver Coleção</a>
+            <a href="#contact" class="btn btn-secondary">Agendar Consulta</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">500+</span>
+              <span class="stat-label">Modelos</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">10k+</span>
+              <span class="stat-label">Clientes</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">Anos</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <div class="hero-image-placeholder">
+              <img src="imgs/premium-display.png" alt="Óculos Premium" class="hero-image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Nossa Coleção</span>
+          <h2 class="section-title">Óculos Premium</h2>
+          <p class="section-subtitle">
+            Cada peça é cuidadosamente selecionada para oferecer estilo,
+            conforto e qualidade excepcionais
+          </p>
+        </div>
+
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-image">
+              <img src="imgs/beach-sunglasses.png" alt="Aviator Classic" class="product-img">
+              <div class="product-badge">Novo</div>
+              <div class="product-overlay">
+                <button class="product-btn">Ver Detalhes</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Aviator Classic</h3>
+              <p class="product-category">Óculos de Sol</p>
+              <div class="product-footer">
+                <span class="product-price">R$ 899,00</span>
+                <button class="product-cart-btn">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M5 2L3 6V16C3 16.5304 3.21071 17.0391 3.58579 17.4142C3.96086 17.7893 4.46957 18 5 18H15C15.5304 18 16.0391 17.7893 16.4142 17.4142C16.7893 17.0391 17 16.5304 17 16V6L15 2H5Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M3 6H17"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M13 10C13 10.5304 12.7893 11.0391 12.4142 11.4142C12.0391 11.7893 11.5304 12 11 12C10.4696 12 9.96086 11.7893 9.58579 11.4142C9.21071 11.0391 9 10.5304 9 10"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="imgs/studio-black-sunglasses.png" alt="Round Vintage" class="product-img">
+              <div class="product-badge featured">Destaque</div>
+              <div class="product-overlay">
+                <button class="product-btn">Ver Detalhes</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Round Vintage</h3>
+              <p class="product-category">Óculos de Grau</p>
+              <div class="product-footer">
+                <span class="product-price">R$ 1.299,00</span>
+                <button class="product-cart-btn">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M5 2L3 6V16C3 16.5304 3.21071 17.0391 3.58579 17.4142C3.96086 17.7893 4.46957 18 5 18H15C15.5304 18 16.0391 17.7893 16.4142 17.4142C16.7893 17.0391 17 16.5304 17 16V6L15 2H5Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M3 6H17"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M13 10C13 10.5304 12.7893 11.0391 12.4142 11.4142C12.0391 11.7893 11.5304 12 11 12C10.4696 12 9.96086 11.7893 9.58579 11.4142C9.21071 11.0391 9 10.5304 9 10"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="imgs/terrace-brown-sunglasses.png" alt="Square Modern" class="product-img">
+              <div class="product-overlay">
+                <button class="product-btn">Ver Detalhes</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Square Modern</h3>
+              <p class="product-category">Óculos de Sol</p>
+              <div class="product-footer">
+                <span class="product-price">R$ 749,00</span>
+                <button class="product-cart-btn">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M5 2L3 6V16C3 16.5304 3.21071 17.0391 3.58579 17.4142C3.96086 17.7893 4.46957 18 5 18H15C15.5304 18 16.0391 17.7893 16.4142 17.4142C16.7893 17.0391 17 16.5304 17 16V6L15 2H5Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M3 6H17"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M13 10C13 10.5304 12.7893 11.0391 12.4142 11.4142C12.0391 11.7893 11.5304 12 11 12C10.4696 12 9.96086 11.7893 9.58579 11.4142C9.21071 11.0391 9 10.5304 9 10"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="imgs/beach-sunglasses.png" alt="Cat Eye Elegant" class="product-img">
+              <div class="product-overlay">
+                <button class="product-btn">Ver Detalhes</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Cat Eye Elegant</h3>
+              <p class="product-category">Óculos de Grau</p>
+              <div class="product-footer">
+                <span class="product-price">R$ 1.099,00</span>
+                <button class="product-cart-btn">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M5 2L3 6V16C3 16.5304 3.21071 17.0391 3.58579 17.4142C3.96086 17.7893 4.46957 18 5 18H15C15.5304 18 16.0391 17.7893 16.4142 17.4142C16.7893 17.0391 17 16.5304 17 16V6L15 2H5Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M3 6H17"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M13 10C13 10.5304 12.7893 11.0391 12.4142 11.4142C12.0391 11.7893 11.5304 12 11 12C10.4696 12 9.96086 11.7893 9.58579 11.4142C9.21071 11.0391 9 10.5304 9 10"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="imgs/forest-round-sunglasses.png" alt="Sport Performance" class="product-img">
+              <div class="product-overlay">
+                <button class="product-btn">Ver Detalhes</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Sport Performance</h3>
+              <p class="product-category">Esportivo</p>
+              <div class="product-footer">
+                <span class="product-price">R$ 1.499,00</span>
+                <button class="product-cart-btn">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M5 2L3 6V16C3 16.5304 3.21071 17.0391 3.58579 17.4142C3.96086 17.7893 4.46957 18 5 18H15C15.5304 18 16.0391 17.7893 16.4142 17.4142C16.7893 17.0391 17 16.5304 17 16V6L15 2H5Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M3 6H17"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M13 10C13 10.5304 12.7893 11.0391 12.4142 11.4142C12.0391 11.7893 11.5304 12 11 12C10.4696 12 9.96086 11.7893 9.58579 11.4142C9.21071 11.0391 9 10.5304 9 10"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="imgs/studio-black-sunglasses.png" alt="Minimalist Frame" class="product-img">
+              <div class="product-overlay">
+                <button class="product-btn">Ver Detalhes</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Minimalist Frame</h3>
+              <p class="product-category">Óculos de Grau</p>
+              <div class="product-footer">
+                <span class="product-price">R$ 649,00</span>
+                <button class="product-cart-btn">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path
+                      d="M5 2L3 6V16C3 16.5304 3.21071 17.0391 3.58579 17.4142C3.96086 17.7893 4.46957 18 5 18H15C15.5304 18 16.0391 17.7893 16.4142 17.4142C16.7893 17.0391 17 16.5304 17 16V6L15 2H5Z"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M3 6H17"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M13 10C13 10.5304 12.7893 11.0391 12.4142 11.4142C12.0391 11.7893 11.5304 12 11 12C10.4696 12 9.96086 11.7893 9.58579 11.4142C9.21071 11.0391 9 10.5304 9 10"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Extras para preencher a grade -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="imgs/terrace-brown-sunglasses.png" alt="Urban Classic" class="product-img">
+              <div class="product-overlay">
+                <button class="product-btn">Ver Detalhes</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Urban Classic</h3>
+              <p class="product-category">Óculos de Sol</p>
+              <div class="product-footer">
+                <span class="product-price">R$ 799,00</span>
+                <button class="product-cart-btn">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M5 2L3 6V16C3 16.5304 3.21071 17.0391 3.58579 17.4142C3.96086 17.7893 4.46957 18 5 18H15C15.5304 18 16.0391 17.7893 16.4142 17.4142C16.7893 17.0391 17 16.5304 17 16V6L15 2H5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M3 6H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                    <path d="M13 10C13 10.5304 12.7893 11.0391 12.4142 11.4142C12.0391 11.7893 11.5304 12 11 12C10.4696 12 9.96086 11.7893 9.58579 11.4142C9.21071 11.0391 9 10.5304 9 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="imgs/forest-round-sunglasses.png" alt="Modern Chic" class="product-img">
+              <div class="product-overlay">
+                <button class="product-btn">Ver Detalhes</button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-name">Modern Chic</h3>
+              <p class="product-category">Óculos de Grau</p>
+              <div class="product-footer">
+                <span class="product-price">R$ 859,00</span>
+                <button class="product-cart-btn">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M5 2L3 6V16C3 16.5304 3.21071 17.0391 3.58579 17.4142C3.96086 17.7893 4.46957 18 5 18H15C15.5304 18 16.0391 17.7893 16.4142 17.4142C16.7893 17.0391 17 16.5304 17 16V6L15 2H5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M3 6H17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                    <path d="M13 10C13 10.5304 12.7893 11.0391 12.4142 11.4142C12.0391 11.7893 11.5304 12 11 12C10.4696 12 9.96086 11.7893 9.58579 11.4142C9.21071 11.0391 9 10.5304 9 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="products-cta">
+          <a href="#contact" class="btn btn-outline">Ver Toda a Coleção</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3D Interactive Section -->
+    <section class="interactive-3d" id="interactive-3d">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Experiência 3D</span>
+          <h2 class="section-title">Explore em 3D</h2>
+          <p class="section-subtitle">
+            Interaja com nossos óculos em um ambiente 3D imersivo. Rotacione,
+            aproxime e explore cada detalhe.
+          </p>
+        </div>
+
+        <div class="canvas-3d-wrapper">
+          <spline-viewer url="https://prod.spline.design/w4oaKLiMlfAA4yif/scene.splinecode" style="width: 100%; height: 70vh; min-height: 600px; border-radius: 12px; display: block;"></spline-viewer>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <span class="section-label">Sobre Nós</span>
+            <h2 class="section-title">Excelência em Cada Detalhe</h2>
+            <p class="about-description">
+              Com mais de 15 anos de experiência, a Optica Vision é referência
+              em óculos premium. Oferecemos uma seleção cuidadosa das melhores
+              marcas internacionais, combinando estilo, qualidade e tecnologia
+              de ponta.
+            </p>
+            <div class="about-features">
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M12 2L2 7L12 12L22 7L12 2Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M2 17L12 22L22 17"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M2 12L12 17L22 12"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <h3>Qualidade Premium</h3>
+                <p>Materiais de primeira linha e acabamento impecável</p>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M20 7H4C2.89543 7 2 7.89543 2 9V19C2 20.1046 2.89543 21 4 21H20C21.1046 21 22 20.1046 22 19V9C22 7.89543 21.1046 7 20 7Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M16 21V13C16 11.8954 15.1046 11 14 11H10C8.89543 11 8 11.8954 8 13V21"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 7C12 5.89543 11.1046 5 10 5H8C6.89543 5 6 5.89543 6 7V7"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <h3>Atendimento Personalizado</h3>
+                <p>Consultoria especializada para encontrar o modelo ideal</p>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 6V12L16 14"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <h3>Garantia Total</h3>
+                <p>Suporte completo e garantia em todos os produtos</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-visual">
+            <div class="about-image-placeholder">
+              <img src="imgs/premium-display.png" alt="Sobre a Optica Vision" class="about-image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Entre em Contato</span>
+          <h2 class="section-title">Agende Sua Visita</h2>
+          <p class="section-subtitle">
+            Estamos prontos para ajudá-lo a encontrar os óculos perfeitos
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3>Endereço</h3>
+              <p>Av. Paulista, 1000<br />São Paulo - SP, 01310-100</p>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M22 16.92V19.92C22.0011 20.1985 21.9441 20.4742 21.8325 20.7292C21.7209 20.9842 21.5573 21.2126 21.352 21.3999C21.1467 21.5872 20.9046 21.7292 20.6397 21.8167C20.3748 21.9042 20.0932 21.9351 19.815 21.907C16.7429 21.5851 13.787 20.5301 11.19 18.8201C8.77382 17.2832 6.72533 15.2347 5.18843 12.8186C3.47849 10.2221 2.42344 7.26665 2.10143 4.19505C2.07338 3.91679 2.10425 3.63519 2.19172 3.37028C2.27919 3.10537 2.42119 2.86326 2.60849 2.65798C2.79578 2.4527 3.02418 2.28908 3.27919 2.17749C3.5342 2.0659 3.80989 2.00887 4.08843 2.01005H7.08843C7.62143 1.97105 8.15343 2.18605 8.52843 2.60005L10.0884 4.50005C10.4484 4.93205 10.6064 5.49505 10.5184 6.05005C10.4304 6.60505 10.1054 7.09005 9.63843 7.39005L8.08843 8.39005C9.51343 11.2 11.7884 13.475 14.5984 14.9L15.5984 13.35C15.8984 12.883 16.3834 12.558 16.9384 12.47C17.4934 12.382 18.0564 12.54 18.4884 12.9L20.3884 14.46C20.8024 14.835 21.0174 15.367 20.9784 15.9L21.9784 15.9Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3>Telefone</h3>
+              <p>(11) 3456-7890<br />WhatsApp: (11) 98765-4321</p>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M22 6L12 13L2 6"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3>Email</h3>
+              <p>contato@opticavision.com.br<br />vendas@opticavision.com.br</p>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M12 6V12L16 14"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <h3>Horário</h3>
+              <p>Seg - Sex: 9h às 18h<br />Sáb: 9h às 14h</p>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefone</label>
+              <input type="tel" id="phone" name="phone" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Mensagem</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="logo">
+              <span class="logo-text">Optica</span>
+              <span class="logo-accent">Vision</span>
+            </div>
+            <p class="footer-description">
+              Sua visão, nosso compromisso. Óculos premium com estilo e
+              qualidade.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Instagram">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <rect
+                    x="2"
+                    y="2"
+                    width="20"
+                    height="20"
+                    rx="5"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="M16 11.37C16.1234 12.2022 15.9813 13.0522 15.5938 13.816C15.2063 14.58 14.5932 15.2247 13.8416 15.6587C13.0901 16.0927 12.2385 16.3021 11.38 16.268C10.5215 16.3021 9.66994 16.0927 8.91836 15.6587C8.16679 15.2247 7.55372 14.58 7.16619 13.816C6.77866 13.0522 6.63659 12.2022 6.76003 11.37C7.10869 9.49746 8.6276 8.00001 10.5 8.00001C12.3724 8.00001 13.8913 9.49746 14.24 11.37H16Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Facebook">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M18 2H15C13.6739 2 12.4021 2.52678 11.4645 3.46447C10.5268 4.40215 10 5.67392 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.73478 14.1054 6.48043 14.2929 6.29289C14.4804 6.10536 14.7348 6 15 6H18V2Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+              <a href="#" class="social-link" aria-label="Twitter">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M23 3C22.0424 3.67548 20.9821 4.19211 19.88 4.53C19.3676 3.83751 18.6565 3.34669 17.8472 3.12393C17.038 2.90118 16.1805 2.95791 15.4074 3.28651C14.6343 3.6151 13.9922 4.19836 13.5789 4.93371C13.1655 5.66905 13.0029 6.52024 13.12 7.36V8.28C11.2855 8.30437 9.47196 7.92319 7.80506 7.16597C6.13816 6.40875 4.65825 5.29461 3.47 3.9C3.11582 4.51383 2.92747 5.21225 2.92747 5.92C2.92747 6.62775 3.11582 7.32617 3.47 7.94C4.48979 7.04955 5.71026 6.45928 7.03089 6.22304C8.35152 5.9868 9.72769 6.11331 10.98 6.59C12.2318 5.58454 13.8015 5.02642 15.43 5.02C15.68 4.02 16.23 3.13 17.01 2.49C18.16 1.54 19.65 1.02 21.18 1.02C21.32 1.02 21.46 1.03 21.6 1.04C20.64 1.65 19.8 2.43 19.13 3.35L23 3Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4>Produtos</h4>
+              <ul>
+                <li><a href="#products">Óculos de Grau</a></li>
+                <li><a href="#products">Óculos de Sol</a></li>
+                <li><a href="#products">Esportivos</a></li>
+                <li><a href="#products">Acessórios</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Empresa</h4>
+              <ul>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#">Nossa História</a></li>
+                <li><a href="#">Trabalhe Conosco</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Suporte</h4>
+              <ul>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Garantia</a></li>
+                <li><a href="#">Trocas e Devoluções</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2024 Optica Vision. Todos os direitos reservados.</p>
+          <div class="footer-legal">
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos de Uso</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script>
+      // Simple OrbitControls implementation if CDN fails
+      if (typeof THREE !== 'undefined' && typeof THREE.OrbitControls === 'undefined') {
+        THREE.OrbitControls = function(camera, domElement) {
+          this.object = camera;
+          this.domElement = domElement;
+          this.enableDamping = true;
+          this.dampingFactor = 0.05;
+          this.minDistance = 3;
+          this.maxDistance = 15;
+          this.enablePan = false;
+          this.autoRotate = false;
+          this.autoRotateSpeed = 2.0;
+          this.target = new THREE.Vector3();
+
+          let spherical = new THREE.Spherical();
+          let sphericalDelta = new THREE.Spherical();
+          let rotateStart = new THREE.Vector2();
+          let rotateEnd = new THREE.Vector2();
+          let zoomStart = 0;
+          let zoomEnd = 0;
+          let panStart = new THREE.Vector2();
+          let panEnd = new THREE.Vector2();
+          let isRotating = false;
+          let isZooming = false;
+
+          const update = () => {
+            const offset = new THREE.Vector3();
+            offset.copy(this.object.position).sub(this.target);
+            spherical.setFromVector3(offset);
+
+            if (this.autoRotate) {
+              spherical.theta -= this.autoRotateSpeed * 0.01;
+            }
+
+            spherical.theta += sphericalDelta.theta;
+            spherical.phi += sphericalDelta.phi;
+            spherical.phi = Math.max(0.1, Math.min(Math.PI - 0.1, spherical.phi));
+            spherical.radius += sphericalDelta.radius;
+            spherical.radius = Math.max(this.minDistance, Math.min(this.maxDistance, spherical.radius));
+
+            offset.setFromSpherical(spherical);
+            this.object.position.copy(this.target).add(offset);
+            this.object.lookAt(this.target);
+
+            if (this.enableDamping) {
+              sphericalDelta.theta *= (1 - this.dampingFactor);
+              sphericalDelta.phi *= (1 - this.dampingFactor);
+              sphericalDelta.radius *= (1 - this.dampingFactor);
+            } else {
+              sphericalDelta.set(0, 0, 0);
+            }
+          };
+
+          const onMouseDown = (event) => {
+            if (event.button === 0) {
+              isRotating = true;
+              rotateStart.set(event.clientX, event.clientY);
+            } else if (event.button === 2) {
+              isZooming = true;
+              zoomStart = event.clientY;
+            }
+          };
+
+          const onMouseMove = (event) => {
+            if (isRotating) {
+              rotateEnd.set(event.clientX, event.clientY);
+              const deltaX = (rotateEnd.x - rotateStart.x) * 0.01;
+              const deltaY = (rotateEnd.y - rotateStart.y) * 0.01;
+              sphericalDelta.theta -= deltaX;
+              sphericalDelta.phi -= deltaY;
+              rotateStart.copy(rotateEnd);
+            } else if (isZooming) {
+              zoomEnd = event.clientY;
+              const deltaY = (zoomEnd - zoomStart) * 0.01;
+              sphericalDelta.radius += deltaY;
+              zoomStart = zoomEnd;
+            }
+          };
+
+          const onMouseUp = () => {
+            isRotating = false;
+            isZooming = false;
+          };
+
+          const onWheel = (event) => {
+            event.preventDefault();
+            const delta = event.deltaY * 0.001;
+            sphericalDelta.radius += delta;
+          };
+
+          this.update = update;
+          this.domElement.addEventListener('mousedown', onMouseDown);
+          this.domElement.addEventListener('mousemove', onMouseMove);
+          this.domElement.addEventListener('mouseup', onMouseUp);
+          this.domElement.addEventListener('wheel', onWheel);
+          this.domElement.addEventListener('contextmenu', (e) => e.preventDefault());
+
+          // Touch events
+          let touchStart = { x: 0, y: 0 };
+          this.domElement.addEventListener('touchstart', (e) => {
+            if (e.touches.length === 1) {
+              touchStart.x = e.touches[0].clientX;
+              touchStart.y = e.touches[0].clientY;
+              isRotating = true;
+            }
+          });
+
+          this.domElement.addEventListener('touchmove', (e) => {
+            if (isRotating && e.touches.length === 1) {
+              const deltaX = (e.touches[0].clientX - touchStart.x) * 0.01;
+              const deltaY = (e.touches[0].clientY - touchStart.y) * 0.01;
+              sphericalDelta.theta -= deltaX;
+              sphericalDelta.phi -= deltaY;
+              touchStart.x = e.touches[0].clientX;
+              touchStart.y = e.touches[0].clientY;
+            }
+          });
+
+          this.domElement.addEventListener('touchend', () => {
+            isRotating = false;
+          });
+        };
+      }
+    </script>
+    <script>
+      // Esconder logo do Spline
+      function hideSplineLogo() {
+        const viewer = document.querySelector('spline-viewer');
+        if (viewer && viewer.shadowRoot) {
+          const style = document.createElement('style');
+          style.textContent = `
+            #logo, [id*="logo"], a[href*="spline"] {
+              display: none !important;
+              opacity: 0 !important;
+              visibility: hidden !important;
+            }
+          `;
+          viewer.shadowRoot.appendChild(style);
+        }
+      }
+
+      // Tentar esconder imediatamente e depois de carregar
+      setTimeout(hideSplineLogo, 100);
+      setTimeout(hideSplineLogo, 500);
+      setTimeout(hideSplineLogo, 1000);
+      setTimeout(hideSplineLogo, 2000);
+
+      document.addEventListener('DOMContentLoaded', hideSplineLogo);
+      window.addEventListener('load', hideSplineLogo);
+    </script>
+    <script src="optic-script.js"></script>
+  </body>
+</html>
+
